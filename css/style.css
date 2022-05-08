@@ -1,0 +1,174 @@
+body{
+	text-align: center;
+	margin: 0;
+	background-color: #7FB5FF;
+}
+
+/********** HEAD ************/
+
+
+#head{
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	background: #001D6E;
+	color: #FEE2C5;
+}
+
+#leftside{
+	text-align: left;
+	margin: 10px;
+	font-size: 40px;
+}
+
+#rightside{
+	text-align: right;
+	margin: 10px;
+	word-spacing: 7px;
+}
+
+/* ************ Top Section ********** */
+
+.top{
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background: #7FB5FF;
+}
+
+.section:hover{
+	background: #C4DDFF;
+}
+
+#main{
+	margin: 90px auto;
+	width: 50%;
+	height: 55%;
+	padding: 10px;
+	background: #FEE2C5;
+	box-shadow: 4px 4px dimgrey;
+	color: #001D6E;
+}
+
+#tagline{
+	font-family: 'Kaushan Script', cursive;
+	letter-spacing: 2px;
+}
+
+#mainh1{
+	text-decoration: underline solid #001D6E;
+}
+
+.mainimg{
+	height: 200px;
+	width: 400px;
+	border-radius: 60%;
+}
+
+/* ******** About Us Section *********** */
+
+
+.about{
+	position: absolute;
+	top: 680px;
+	width: 100%;
+	height: 300%;
+	background: #7FB5FF;
+	z-index: -1;
+	color: #001D6E;
+	padding-top: 30px;
+}
+
+.abt-imgs1{
+	float: left;
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	margin-right: 20px;
+	margin-left: 90px;
+}
+
+.abt-imgs2{
+	float: right;
+	height: 260px;
+	width: 250px;
+	border-radius: 100%;
+	margin-left: 20px;
+	margin-right: 90px;
+}
+
+.para{
+	margin: 150px 20px 150px 20px;
+	font-size: 18px;
+	padding-left: 20px;
+	text-align: left;
+}
+
+h2{
+	font-size: 35px;
+	color: #FEE2C5;
+	box-shadow: 4px 4px lavenderblush;
+	width: 25%;
+	margin: 30px auto;
+	background-color: #001D6E;
+	padding: 15px;
+}
+
+.abt-sevices-h3{
+	text-align: center;
+	font-size: 25px;
+	color: #001D6E;
+	text-decoration: underline solid #001D6E;
+
+}
+
+/* ******** Services Section ********** */
+
+
+.links{
+	position: absolute;
+	top: 1800px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background: #7FB5FF;
+	padding-top: 30px;
+}
+
+.box{
+	margin: auto;
+	width: 50%;
+	padding: 20px;
+	background: #FEE2C5;
+	border: solid 5px white ;
+	color: #001D6E;
+}
+
+/* ****** Bottom Section *********** */
+
+.bottom{
+	position: absolute;
+	top: 2500px;
+	width: 100%;
+	height: 115%;
+	z-index: -1;
+	background: #7FB5FF;
+	color: #001D6E;
+	font-size: 20px;
+	padding-top: 30px;
+}
+
+h4{
+	text-decoration: underline solid #001D6E;
+}
+
+.bgimgs{
+	position: relative;
+	top: 200px;
+	height: 200px;
+	width: 200px;
+}
+
+
